@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <div class="logo">
+          <a>Portfolio</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Maura Larissa Costa Sena</span></h1>
+        <p class="subtitle">Desenvolvedora de Softwate</p>
+        <a href="#contact" class="cta-button">Entre em contato comigo</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Sobre mim</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Sou um desenvolvedora back-end apaixonada com experiência em Apis e
+            conhecimento em front-end. Adoro transformar problemas complexos em
+            soluções simples, bonitas e intuitivas.
+          </p>
+          <p>
+            Com uma base sólida em desenvolvimento front-end e back-end, eu me
+            esforço para criar experiências de usuário perfeitas que façam a
+            diferença.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Minhas Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-java"></i>
+            <h3>Java</h3>
+          </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Meus Projetos</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="/assets/ifood-clone.png" alt="Project 1" />
+          <h3>Clone do Portal do Parceiro - IFOOD</h3>
+          <p>Clone da página de formulário do portal do parceiro, da empresa ifood.</p>
+          <a href="https://ifood-clone-three.vercel.app/" class="project-link">Ver Projeto</a>
+        </div>
+        <div class="project-card">
+          <img src="/assets/bikcraft-origamid.png" alt="Project 2" />
+          <h3>BikCraft - Origamid</h3>
+          <p>Projeto BikCraft, desenvolvido durante o curso de html e css da Origamid</p>
+          <a href="https://bikcraft-origamid-xi.vercel.app/" class="project-link">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Entre em contato comigo</h2>
+      <div class="contact-content">
+        <form class="contact-form">
+          <input type="text" placeholder="Seu Nome" required />
+          <input type="email" placeholder="Seu email" required />
+          <textarea placeholder="Sua mensagem" required></textarea>
+          <button type="submit" class="submit-btn">Enviar Mensagem</button>
+        </form>
+        <div class="social-links">
+          <a href="https://github.com/larissacsena"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/maura-larissa-sena/"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Maura Larissa.</p>
+    </footer>
+  </body>
+</html>
